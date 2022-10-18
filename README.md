@@ -1,6 +1,5 @@
 # SudokuSolver
 GUI Application which solves any given Sudoku instantly. 
-The Sudoku is solved using backtracking algorithm.
 
 ## Instructions
 Clone the git repo and install the modules present in requirements.txt
@@ -8,7 +7,10 @@ Clone the git repo and install the modules present in requirements.txt
 Run the `app-ui.py`
 
 ## GUI
-The Graphic User Interface (GUI) is created using the Python Tkinter library. Its source code is present in `app-ui.py`
+The Graphic User Interface (GUI) is created using the Python Tkinter library. Its source code is present in `app-ui.py` file.
+
+## Backend
+The Sudoku is solved using backtracking algorithm. The code can be found in `solver.py` file.
 
 ## Screenshots
 ![1](https://user-images.githubusercontent.com/64647057/196309285-4da56e2d-3702-4df1-9545-4fe1f86cf9fa.png)
