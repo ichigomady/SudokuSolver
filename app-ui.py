@@ -16,10 +16,10 @@ class SudokuGui:
     def display_configure(self):
         self.root.title('Sudoku Solver')
         self.root.configure(background=self.color)
-        self.root.minsize(600, 600)
-        self.root.maxsize(600, 600)
+        self.root.minsize(700, 600)
+        self.root.maxsize(700, 600)
 
-        self.logo = Image.open(r'logo\logo.jpg')
+        self.logo = Image.open(r'logo/logo.jpg')
         self.logo = ImageTk.PhotoImage(self.logo)
         self.logo_label = tk.Label(image=self.logo)
         self.logo_label.image = self.logo
@@ -91,16 +91,6 @@ class SudokuGui:
 
 
 def main():
-    # sudoku = [[5, 3, 0, 0, 7, 0, 0, 0, 0],
-    #         [6, 0, 0, 1, 9, 5, 0, 0, 0],
-    #         [0, 9, 8, 0, 0, 0, 0, 6, 0],
-    #         [8, 0, 0, 0, 6, 0, 0, 0, 3],
-    #         [4, 0, 0, 8, 0, 3, 0, 0, 1],
-    #         [7, 0, 0, 0, 2, 0, 0, 0, 6],
-    #         [0, 6, 0, 0, 0, 0, 2, 8, 0],
-    #         [0, 0, 0, 4, 1, 9, 0, 0, 5],
-    #         [0, 0, 0, 0, 8, 0, 0, 7, 9]
-    #         ]
     gui = SudokuGui()
 
 
